@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.social-box {
+  @apply text-center my-2 mx-auto w-full py-2
+  px-8 bg-grey text-white
+  rounded-lg cursor-pointer hover:bg-green
+  hover:text-grey hover:font-semibold
+  duration-300
+}
